@@ -95,6 +95,7 @@ Here a list of all subparts:
     constructgenetrees2         #constructing gene trees of every single SSCO alignment using iqtree
     filtergenetrees2            #filter genetrees and alignments based on the maximum likelihood distance (throw out too conserved and too variable genes)
     concatgenealignments2       #concatenate gene SSCO into one big matrix using FASconCAT
+    trimmsupermatrix2           #trimm concatenated supermatrix using clipkit
     constructsupermtree2        #constructing a tree from the concatenated alignment using iqtree
     constructsuperttree2        #constructing a consensus tree based on all constructed SSCO trees using Astral 
 
