@@ -2,12 +2,7 @@
 -------------------------------
 
 A pipeline created to automatize all my steps for phylogenetic analyses using the GEMOMA (Keilwagen et al. 
-2019) annotation pipeline. This script is one of three scripts I wrote to create phylogenomic trees. Others 
-are "BUSCO-to-Phylogeny", which will use the "BUSCO" toolkit (Manni et al. 2021) to gather orthologs 
-based on a defined "core" set and "GF-to-Phylogeny", which will use little fragments (Genome fragments) obtained
-by mapping raw reads to a reference on chopping up resulting consensus sequences (Arnason et al. 2018). 
-All three scripts are combined in the script "Do_the_phylogenomics.sh" which can also be found on 
-my github page. 
+2019) annotation pipeline.
 
 Does require perl5, python3 and anaconda environments!
 
