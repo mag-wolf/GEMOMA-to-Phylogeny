@@ -46,6 +46,7 @@ trimmgenealignments2=TRUE
 constructgenetrees2=TRUE
 filtergenetrees2=TRUE
 concatgenealignments2=TRUE
+trimmsupermatrix2=TRUE
 constructsupermtree2=TRUE                               #this will take a loooooong time!
 constructsuperttree2=TRUE
 #
