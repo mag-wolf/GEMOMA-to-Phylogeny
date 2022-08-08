@@ -87,17 +87,16 @@ I suggest piping screen outputs to an error log by adding:
 Here a list of all subparts:
 ###
 
-    rungemoma                  #run the genoma annotation pipeline for every assembly using all homology-information provided in the ANNOTATIONS directory
-    orthocalling               #find orthologs between the annotations made by gemoma
-    findsharedscos2            #find shared single copy orthologs (SSCO) with a certain missing data cutoff
-    makealignments2            #make alignments of all SSCO sequences using mafft
-    trimmgenealignments2       #trimm the alignments using clipkit
-    filteralignments2          #filter the alignments for too conserved and too variable genes
-    concatgenealignments2      #concatenate gene SSCO into one big matrix using FASconCAT
-    trimmsupermatrix2          #trimm the concatenated alignment using clipkit
-    constructgenetrees2        #constructing gene trees of every single SSCO alignment using iqtree
-    constructsupermtree2       #constructing a tree from the concatenated alignment using iqtree
-    constructsuperttree2       #constructing a consensus tree based on all constructed SSCO trees using Astral 
+    rungemoma                   #run the genoma annotation pipeline for every assembly using all homology-information provided in the ANNOTATIONS directory
+    orthocalling                #find orthologs between the annotations made by gemoma
+    findsharedscos2             #find shared single copy orthologs (SSCO) with a 25% missing species cutoff
+    makealignments2             #make alignments of all SSCO sequences using mafft
+    trimmgenealignments2        #trimm the alignments using clipkit
+    constructgenetrees2         #constructing gene trees of every single SSCO alignment using iqtree
+    filtergenetrees2            #filter genetrees and alignments based on the maximum likelihood distance (throw out too conserved and too variable genes)
+    concatgenealignments2       #concatenate gene SSCO into one big matrix using FASconCAT
+    constructsupermtree2        #constructing a tree from the concatenated alignment using iqtree
+    constructsuperttree2        #constructing a consensus tree based on all constructed SSCO trees using Astral 
 
 ###
 
