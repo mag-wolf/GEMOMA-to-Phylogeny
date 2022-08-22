@@ -456,9 +456,10 @@ if [[ "$concatgenealignments2" = TRUE ]]
         echo "###################################################################"
         mkdir SUPERMATRIX2
         cd SUPERMATRIX2
-        for file in ./../GENETREES2/*alig_noIUPAC.fasta;
+        for file in ./../GENETREES2/*.treefile;
         do
-                ln -s $file
+		bn=`basename $file _trimmed.fasta.treefile`
+                ln -s "./../GENETREES2/"$bn"_noIUPAC.fasta"
         done
         perl $FASCONCAT -s
         rm *.fasta
