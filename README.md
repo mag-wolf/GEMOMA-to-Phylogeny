@@ -102,5 +102,15 @@ Here a list of all subparts:
 ###
 
 
+Citation:
+-------------------------------
+If you use this pipeline for your research I would greatly appreciate if you cite the
+study during which I created this pipeline:
+
+Wolf, M., Zapf, K., Gupta, D.K. et al. The genome of the pygmy right whale illuminates the evolution of rorquals. BMC Biol 21, 79 (2023). https://doi.org/10.1186/s12915-023-01579-1
+
+
+
+
 Good luck!
 -------------------------------
